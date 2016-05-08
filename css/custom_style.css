@@ -1,0 +1,44 @@
+
+body{
+  font-family:'Source Sans Pro';
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #eff6f8;
+  color:#34798c;
+}
+
+div.row{
+    margin: 5% 0 0 0;
+}
+h1{
+  font-size:8em;
+  font-weight: 700;
+  color: #235a69;
+}
+h2{
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #235a69;
+
+}
+
+h3{
+  font-size:2em;
+  font-weight: 400;
+}
+.btn-default{
+  width:300px;
+  color: #235a69;
+  font-weight: 700;
+  border-radius:0;
+  background-color: rgba(195,228,237,1);
+}
+.shadow{
+  background-color: rgba(195,228,237,1);
+  box-shadow: 1px 1px 1px 1px #888888;
+  color:#34798c;
+}
+.row{
+  padding:20px;
+}
+/*// Class*/

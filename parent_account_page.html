@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document2</title>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/custom_style.css">
+  <script src="js/jquery-2.2.3.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <h2>Complete Profile</h2>
+      <div class="row">        <!-- row creates a margin below it-->
+      <form class="form-inline ">
+        <div class="form-group">
+          <label for="exampleInputName2">Name</label>
+          <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail2">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+        </div>
+        <div class="form-group">
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">GPA
+              <span class="caret"></span></button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">1</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">3</a></li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+              </ul>
+            </div>
+        </div>
+        <button type="submit" id="button-open" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+</div>
+<div class="row">
+<!-- start of hidden list-->
+  <div class="col">
+    <ul id="list-unstyled">
+      <li id="profile-link"><a href="#hidden">Name:</a></li>
+      <li>Email:</li>
+      <li>Grade:</li>
+      <li>GPA:</li>
+    </ul>
+  </div>
+
+</div>
+</div>
+<script src="js/script.js"></script>
+
+</body>
+</html>
